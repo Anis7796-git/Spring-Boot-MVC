@@ -21,6 +21,7 @@ public class SeassonFinderOPerationController {
 		
 		return "welcome";//LVN
 	}
+	
 	@RequestMapping("/season")
 	public String showSeaason(Map<String,Object> map) {
 		String msg=service.findSeason();
